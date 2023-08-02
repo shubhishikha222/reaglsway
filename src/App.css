@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  color: black;
+  font-size: large;
+  margin-left: 600px;
+  padding-top: 20px;
+  font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    opacity: 1;
+}
+li:hover {
+  color: green;
+}
+.btn {
+  background-color: green;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.bg {
+  background-image: url(./image/bgregal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+.h1 {
+    display: block;
+    color: #fff;
+    font-size: 68px;
+    line-height: 70px;
+    font-weight: 700;
+    line-height: 5.0;
+    color: black;
+    white-space: pre-wrap;
+}
+.head {
+  margin-left: 200px;
+}
+.btn1 {
+  background-color: green;
+  line-height: 2.0;
+  padding: 10px 20px;
+  font-size: 20px;
+  
+}
+.cards {
+  display: flex;
+  font-size: 20px;
+  height: 200px;
+}
+.cards-hover {
+  background-color: green;
+}
+.card1 {
+ width: 500px;
+ background-color: rgb(53, 53, 116);
+ text-align: center;
+}
+.card2 {
+  width: 400px;
+  background-color: rgb(79, 79, 152);
+  text-align: center;
+ }
+ .card3 {
+  width: 400px;
+  background-color:  rgb(53, 53, 116);
+  text-align: center;
+ }
+ .card4 {
+  width: 400px;
+  background-color: rgb(79, 79, 152);
+  text-align: center;
+ }
+ .section {
+  display: flex;
+  background: #eeebeb;
+ }
+ .main {
+  margin-left: 280px;
+  margin-top:80px ;
+  
+ }
+ .image {
+  margin-left:50px;
+  margin-top: 80px;
+ }
+ .main h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+ }
+ .main h1 {
+  margin-bottom: 10px;
+ }
+ 
+ .grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr ;
+ }
+
+
+.serve {
+  text-align: center;
+  
+}
+.serve h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.serve h1 {
+  font-size: 40px;
+}
+
+
+.algohead {
+  text-align: center;
+  margin: 50px;
+}
+.algocontent img {
+  width: 600px;
+  height: 400px;
+}
+.algocontent {
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+  margin-bottom: 80px;
+}
+
+.algocontent1 img {
+  width: 600px;
+  height: 400px;
+}
+.algocontent1 {
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+}
+.algocontent ,h3 ,p {
+  margin-top: 20px;
+}
+.algocontent1 ,h3 ,p {
+  margin-top: 20px;
+}
+.algocontent p {
+  line-height: 20px;
+  text-indent: 15px;
+}
+.algocontent1 p {
+  line-height: 20px;
+  text-indent: 30px;
+}
+
+.projecthead {
+  text-align: center;
+  margin: 30px;
+  margin-top: 200px;
+}
+
+.projects {
+  white-space: nowrap;
+}
